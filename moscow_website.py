@@ -7,7 +7,7 @@ j = r"""
 
 """
 print("\033[0;32m",j)
-print("script by Moscow\n")
+print("Tool by Moscow\n")
 
 try:
     from googlesearch import *
