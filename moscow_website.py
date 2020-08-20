@@ -4,7 +4,6 @@ j = r"""
 | |\/| |/ _ \/ __|/ __/ _ \ \ /\ / /
 | |  | | (_) \__ \ (_| (_) \ V  V /
 |_|  |_|\___/|___/\___\___/ \_/\_/
-
 """
 print("\033[0;32m",j)
 print("Tool by Moscow\n")
@@ -24,8 +23,11 @@ try:
             
             elif (y == 99):
                 break
-            
+            moscow = input("nawia bo folderk banwsa:  ")
             for t in search(str(x),stop=y):
+                e = open(moscow,"a")
+                e.write(t+"\n")
+                e.close()
                 print(t)
                 print("\n\n")
             print("============================  kotye  ============================\n")
